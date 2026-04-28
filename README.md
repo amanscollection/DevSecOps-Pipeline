@@ -3,7 +3,7 @@
 Build a CI/CD pipeline with built-in security checks.
 
 🧰 Tools
-  .	GitHub
+  .	GitHub  
   .	Jenkins / GitHub Actions
   .	Docker
   .	SonarQube
