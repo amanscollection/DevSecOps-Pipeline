@@ -15,3 +15,8 @@ Build a CI/CD pipeline with built-in security checks.
 STEP 1: Create simple web app
 .	Use Python Flask
 .	Push to GitHub
+
+
+
+## Author
+Amandeep Singh
