@@ -18,6 +18,14 @@ STEP 1: Create simple web app
 * Use Python Flask
 * Push to GitHub
 
+STEP 2: Setup CI/CD pipeline  
+* Use GitHub Actions
+* Pipeline stages:
+  * Build
+  * Test
+  * Security scan
+  * Deploy
+  
 
 
 
