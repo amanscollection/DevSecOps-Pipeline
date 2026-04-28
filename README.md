@@ -2,7 +2,7 @@
 # DevSecOps-Pipeline
 Build a CI/CD pipeline with built-in security checks.
 
-🧰 Tools
+🧰 Tools  
   .	GitHub  
   .	Jenkins / GitHub Actions  
   .	Docker
