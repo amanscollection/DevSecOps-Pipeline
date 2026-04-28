@@ -3,12 +3,12 @@
 Build a CI/CD pipeline with built-in security checks.
 
 🧰 Tools  
-  .	GitHub  
-  .	Jenkins / GitHub Actions  
-  .	Docker
-  .	SonarQube  
-  .	OWASP ZAP  
-  .	Trivy (container scanner)
+  * GitHub  
+  * Jenkins / GitHub Actions  
+  * Docker
+  * SonarQube  
+  * OWASP ZAP  
+  * Trivy (container scanner)
 
   
 🪜 Step-by-step
