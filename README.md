@@ -11,10 +11,13 @@ Build a CI/CD pipeline with built-in security checks.
   * Trivy (container scanner)
 
   
-🪜 Step-by-step
-STEP 1: Create simple web app
-.	Use Python Flask
-.	Push to GitHub
+🪜 Step-by-step  
+
+STEP 1: Create simple web app  
+
+* Use Python Flask
+* Push to GitHub
+
 
 
 
