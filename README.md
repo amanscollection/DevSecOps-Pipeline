@@ -121,7 +121,7 @@ Step 4 — GitHub Actions Workflow
                 - name: Deploy to Server
                   run: echo "Deploying app..."
 
-Step 5 — Deployment  
+Step 5 — Deployment to DockerHub
 
             - name: Login to DockerHub
               run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
@@ -129,7 +129,19 @@ Step 5 — Deployment
             - name: Push Image
               run: |
                 docker tag myapp username/myapp
-                docker push username/myapp
+                docker push username/myapp  
+ 
+ Deployment to AWS EC2 Deployment  
+       - name: Deploy via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ubuntu
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            docker pull username/myapp
+            docker stop myapp || true
+            docker run -d -p 80:5000 username/myapp
 
 ## Author
 Amandeep Singh
