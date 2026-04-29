@@ -122,6 +122,7 @@ Step 4 — GitHub Actions Workflow
                   run: echo "Deploying app..."
 
 Step 5 — Deployment  
+
             - name: Login to DockerHub
               run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
