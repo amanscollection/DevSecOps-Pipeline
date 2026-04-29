@@ -24,6 +24,17 @@ Build a CI/CD pipeline with built-in security checks.
   * OWASP ZAP  
   * Trivy (container scanner)
 
+**Project Structure**  
+
+project/
+ ├── app.py
+ ├── requirements.txt
+ ├── Dockerfile
+ ├── tests/
+ │    └── test_app.py
+ └── .github/
+      └── workflows/
+           └── devsecops.yml
   
 🪜 Step-by-step  
 
