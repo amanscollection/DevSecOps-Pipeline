@@ -53,6 +53,7 @@ STEP 2: Setup CI/CD pipeline
   * Deploy
   
 STEP 3: Create Dockerfile (Build Stage)  
+
       FROM python:3.10 
    
       WORKDIR /app  
