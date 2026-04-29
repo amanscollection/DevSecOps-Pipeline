@@ -44,6 +44,7 @@ STEP 1: Create simple web app
 * Push to GitHub
 
 STEP 2: Setup CI/CD pipeline  
+
 * Use GitHub Actions
 * Pipeline stages:
   * Build
@@ -61,7 +62,7 @@ STEP 3: Create Dockerfile (Build Stage)
    
       CMD ["python", "app.py"]   
 
-Step 4 — GitHub Actions Workflow  
+STEP 4 — GitHub Actions Workflow  
       .github/workflows/devsecops.yml  
 
       FULL PIPELINE  
@@ -121,7 +122,7 @@ Step 4 — GitHub Actions Workflow
                 - name: Deploy to Server
                   run: echo "Deploying app..."
 
-Step 5 — Deployment to DockerHub
+STEP 5 — Deployment to DockerHub
 
             - name: Login to DockerHub
               run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
@@ -144,10 +145,15 @@ Step 5 — Deployment to DockerHub
             docker stop myapp || true
             docker run -d -p 80:5000 username/myapp  
 
-Step 6 — Add Advanced Security for DevSecOps  
+STEP 6 — Add Advanced Security for DevSecOps  
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v2
+
+STEP 7 - Dependency Scan  
+
+   - name: Dependency Check
+     run: pip install safety && safety check
 
 ## Author
 Amandeep Singh
