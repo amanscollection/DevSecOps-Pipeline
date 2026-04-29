@@ -158,5 +158,18 @@ STEP 7 - Dependency Scan
       - name: Dependency Check
         run: pip install safety && safety check
 
+STEP8 - Final Pipeline Flow  
+
+      Code Push
+         ↓
+      Build (Docker)
+         ↓
+      Test (pytest)
+         ↓
+      Security Scan (Trivy + CodeQL + Safety)
+         ↓
+      Deploy (Docker Hub / AWS EC2)
+
+
 ## Author
 Amandeep Singh
