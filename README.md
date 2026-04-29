@@ -16,7 +16,7 @@ Build a CI/CD pipeline with built-in security checks.
       * Security Scan: Trivy
       * Deployment: AWS EC2 / S3 / or Docker Hub
 
-🧰 Tools  
+🧰 **Tools**  
   * GitHub  
   * Jenkins / GitHub Actions  
   * Docker
