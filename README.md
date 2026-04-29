@@ -27,7 +27,7 @@ Build a CI/CD pipeline with built-in security checks.
 **Project Structure**  
 
 project/  
- ├── app.py 
+ ├── app.py  
  ├── requirements.txt  
  ├── Dockerfile  
  ├── tests/  
