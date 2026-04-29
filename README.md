@@ -5,7 +5,8 @@ This project demonstrates integration of security into CI/CD pipelines (DevSecOp
 # DevSecOps-Pipeline
 Build a CI/CD pipeline with built-in security checks.  
 
-1. Architecture Overview
+1. **Architecture Overview**
+   
    Your pipeline will look -:
    * Code Push → GitHub Actions → Build → Test → Security Scan → Deploy
 
