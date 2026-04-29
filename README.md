@@ -155,8 +155,8 @@ STEP 6 — Add Advanced Security for DevSecOps
 
 STEP 7 - Dependency Scan  
 
-   - name: Dependency Check
-     run: pip install safety && safety check
+      - name: Dependency Check
+        run: pip install safety && safety check
 
 ## Author
 Amandeep Singh
