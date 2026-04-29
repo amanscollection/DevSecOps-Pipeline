@@ -3,7 +3,11 @@
 This project demonstrates integration of security into CI/CD pipelines (DevSecOps) including SAST, DAST, and container scanning.
 
 # DevSecOps-Pipeline
-Build a CI/CD pipeline with built-in security checks.
+Build a CI/CD pipeline with built-in security checks.  
+
+1. Architecture Overview
+   Your pipeline will look -:
+   * Code Push → GitHub Actions → Build → Test → Security Scan → Deploy
 
 🧰 Tools  
   * GitHub  
