@@ -132,6 +132,7 @@ Step 5 — Deployment to DockerHub
                 docker push username/myapp  
  
  Deployment to AWS EC2 Deployment  
+ 
        - name: Deploy via SSH
         uses: appleboy/ssh-action@master
         with:
