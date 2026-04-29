@@ -64,6 +64,7 @@ STEP 3: Create Dockerfile (Build Stage)
       CMD ["python", "app.py"]   
 
 STEP 4 — GitHub Actions Workflow  
+
       .github/workflows/devsecops.yml  
 
       FULL PIPELINE  
