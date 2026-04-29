@@ -51,8 +51,15 @@ STEP 2: Setup CI/CD pipeline
   * Security scan
   * Deploy
   
+STEP 3: Create Dockerfile (Build Stage)  
+   FROM python:3.10 
 
+   WORKDIR /app  
+   COPY . .  
 
+   RUN pip install -r requirements.txt  
+
+   CMD ["python", "app.py"]  
 
 ## Author
 Amandeep Singh
