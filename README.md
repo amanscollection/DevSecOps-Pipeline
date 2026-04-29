@@ -1,4 +1,4 @@
-🎯 Goal
+🎯 **Goal**
 
 This project demonstrates integration of security into CI/CD pipelines (DevSecOps) including SAST, DAST, and container scanning.
 
