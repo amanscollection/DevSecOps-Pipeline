@@ -65,9 +65,9 @@ STEP 3: Create Dockerfile (Build Stage)
 
 STEP 4 — GitHub Actions Workflow  
 
-      .github/workflows/devsecops.yml  
+   .github/workflows/devsecops.yml  
 
-      FULL PIPELINE  
+   FULL PIPELINE  
       name: DevSecOps Pipeline
       on:
         push:
