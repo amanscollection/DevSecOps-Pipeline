@@ -145,6 +145,7 @@ Step 5 — Deployment to DockerHub
             docker run -d -p 80:5000 username/myapp  
 
 Step 6 — Add Advanced Security for DevSecOps  
+
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v2
 
